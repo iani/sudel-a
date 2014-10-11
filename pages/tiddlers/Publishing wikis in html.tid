@@ -1,0 +1,9 @@
+created: 20141008062518074
+modified: 20141009163756354
+tags: TOC
+title: Publishing wikis in html
+type: text/vnd.tiddlywiki
+
+Since the save button creates fully functional html files, publish these on the site instead of the node.js versions.  Workflows are listed below:
+
+<<tabs "[tag[html publish to server]]" "HTML publish workflow 2" "" "tc-vertical">>

@@ -1,0 +1,13 @@
+created: 20141008162029882
+modified: 20141008162119970
+tags: [[wiki list]]
+title: Local URLs
+type: text/vnd.tiddlywiki
+
+|!wiki folder   |!port number |!Local URL |
+| sudel-a       |        8000 | http://127.0.0.1:8000               |
+| iani          |        8001 | http://127.0.0.1:8001               |
+| sudel-b       |        8002 | http://127.0.0.1:8002               |
+| tw5square     |        8003 | http://127.0.0.1:8003               |
+| embedInStream |        8004 | http://127.0.0.1:8004               |
+| sandbox       |        8005 | http://127.0.0.1:8005               |

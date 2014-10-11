@@ -1,0 +1,31 @@
+caption: {{$:/language/SideBar/Tags/Caption}}
+created: 20141006181021335
+modified: 20141006182722817
+order: 3
+tags: $:/tags/MoreSideBar $:/tags/SideBar
+title: $:/core/ui/MoreSideBar/Tags
+type: text/vnd.tiddlywiki
+
+<$set name="tv-config-toolbar-icons" value="yes">
+
+<$set name="tv-config-toolbar-text" value="yes">
+
+<$set name="tv-config-toolbar-class" value="">
+
+{{$:/core/ui/Buttons/tag-manager}}
+
+</$set>
+
+</$set>
+
+</$set>
+
+<$list filter="[tags[]!is[system]sort[title]]">
+
+<$transclude tiddler="$:/core/ui/TagTemplate"/> <small class="tc-menu-list-count"><$count filter="[all[current]tagging[]]"/></small>
+
+</$list>
+
+<hr class="tc-untagged-separator">
+
+{{$:/core/ui/UntaggedTemplate}} <small class="tc-menu-list-count"><$count filter="[untagged[]!is[system]] -[tags[]]"/></small>

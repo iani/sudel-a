@@ -1,0 +1,38 @@
+created: 20141005091820929
+list: Contents
+modified: 20141006183546515
+title: $:/core/ui/SideBarLists
+type: text/vnd.tiddlywiki
+
+<div class="tc-sidebar-lists">
+
+<div class="tc-search">
+<$edit-text tiddler="$:/temp/search" type="search" tag="input"/>
+<$reveal state="$:/temp/search" type="nomatch" text="">
+<$linkcatcher to="$:/temp/search">
+<$link to="" class="tc-btn-invisible">{{$:/core/images/close-button}}</$link>
+</$linkcatcher>
+</$reveal>
+<$reveal state="$:/temp/search" type="match" text="">&nbsp;<$link to="$:/AdvancedSearch" tooltip={{$:/language/Buttons/AdvancedSearch/Hint}} aria-label={{$:/language/Buttons/AdvancedSearch/Caption}} class="tc-btn-invisible">&hellip;</$link>
+</$reveal>
+</div>
+
+<$reveal state="$:/temp/search" type="nomatch" text="">
+
+<div class="tc-search-results">
+
+{{$:/language/Search/Matches}}
+
+<$list filter="[!is[system]search{$:/temp/search}sort[title]limit[250]]" template="$:/core/ui/ListItemTemplate"/>
+
+</div>
+
+</$reveal>
+
+<$reveal state="$:/temp/search" type="match" text="">
+
+<<tabs "Contents [[$:/core/ui/SideBar/Recent]] [[$:/core/ui/MoreSideBar/Tags]] [[$:/core/ui/SideBar/Open]]" "Contents" "$:/state/tab/sidebar">>
+
+</$reveal>
+
+</div>

@@ -1,0 +1,18 @@
+created: 20141006175509035
+modified: 20141006211814874
+tags: [[Designing the Look of TW]]
+title: Reduce Icons and Tags
+type: text/vnd.tiddlywiki
+
+Going for a minimal look
+
+* Remove all tool icons from the Tiddler title bar, except for the "X" (close this Tiddler).
+* Remove all tool icons from the SideBar
+* The tabs below the search box should be: 
+** Contents
+** Open
+** Recent (doubles as blog)
+** Tags (just the tags, take the Tabs tiddler from the More tiddler). Note: this is easily done by:
+*** (a) Removing the $:/tags/MoreSideBar tag from Tiddler [[$:/core/ui/SideBar/More]]
+*** (b) Adding the $:/tags/SideBar to Tiddler [[$:/core/ui/MoreSideBar/Tags]]
+* Note: To remove the Tools tab from the SideBar, remove the $:/tags/SideBar tag from the tiddler [[$:/core/ui/SideBar/Tools]]
