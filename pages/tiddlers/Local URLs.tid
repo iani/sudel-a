@@ -1,5 +1,5 @@
 created: 20141008162029882
-modified: 20141008162119970
+modified: 20141030155518993
 tags: [[wiki list]]
 title: Local URLs
 type: text/vnd.tiddlywiki
@@ -11,3 +11,5 @@ type: text/vnd.tiddlywiki
 | tw5square     |        8003 | http://127.0.0.1:8003               |
 | embedInStream |        8004 | http://127.0.0.1:8004               |
 | sandbox       |        8005 | http://127.0.0.1:8005               |
+| research-funding |     8006 | http://127.0.0.1:8006               |
+| performigrations |     8007 | http://127.0.0.1:8007               |
