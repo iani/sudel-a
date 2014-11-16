@@ -1,0 +1,13 @@
+created: 20141116095148365
+modified: 20141116095232217
+tags: [[Web Tools]]
+title: lettering.js
+type: text/vnd.tiddlywiki
+
+http://letteringjs.com/
+
+<<<
+A jQuery plugin for radical web typography
+
+Web type is exploding all over the web but CSS currently doesn't offer complete down-to-the-letter control. So we created a jQuery plugin to give you that control. 
+<<<
