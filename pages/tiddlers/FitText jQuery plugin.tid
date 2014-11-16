@@ -1,0 +1,13 @@
+created: 20141116094916009
+modified: 20141116095013937
+tags: [[Web Tools]]
+title: FitText jQuery plugin
+type: text/vnd.tiddlywiki
+
+http://fittextjs.com/
+
+<<<
+A jQuery plugin for inflating web type
+
+FitText makes font-sizes flexible. Use this plugin on your fluid or responsive layout to achieve scalable headlines that fill the width of a parent element.
+<<<
