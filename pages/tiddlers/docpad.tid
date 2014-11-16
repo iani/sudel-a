@@ -1,7 +1,13 @@
 created: 20141112205218775
-modified: 20141112205232703
-tags: [[Website Examples to Study]]
+modified: 20141116145252702
+tags: [[Website Examples to Study]] [[Web Tools]]
 title: docpad
 type: text/vnd.tiddlywiki
 
 https://docpad.org/
+
+<<tabs "[tag[docpad]]" "" "" "tc-vertical">>
+
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "docpad">>
+</div>

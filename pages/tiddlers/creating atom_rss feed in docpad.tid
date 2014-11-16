@@ -1,0 +1,18 @@
+created: 20141116145400642
+modified: 20141116145734792
+tags: docpad
+title: creating atom/rss feed in docpad
+type: text/vnd.tiddlywiki
+
+From: http://localhost:9778/2013/10/08/blogging-with-docpad/
+
+See: 
+
+http://localhost:9778/2013/10/09/atom-feeds-with-docpad/
+
+<<<
+If you are generating a blog or a blog-like site with DocPad, you'll probably want to create a atom or rss feed for the site. Doing so is reasonably straightforward, but there is one little trick to be aware of. The trick is that you need to convert any relative URLs in your blog content to absolute URLs.
+
+First, start with a feed.xml.eco document that looks like this
+[...]
+<<<
