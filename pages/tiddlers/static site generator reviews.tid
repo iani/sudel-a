@@ -1,0 +1,21 @@
+created: 20141116151044328
+modified: 20141116151950987
+tags: [[Web Tools]]
+title: static site generator reviews
+type: text/vnd.tiddlywiki
+
+!! 7 popular static site generators
+
+http://codecondo.com/7-static-site-generators-for-building-websites-blogs/
+
+* Jekyll
+* Octopress
+* DocPad
+* Pelican
+* Middleman
+* Wintersmith
+* nanoc
+
+!! node.js based generator review
+
+http://codecondo.com/10-web-application-frameworks-for-node-js/
